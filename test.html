@@ -1,0 +1,38 @@
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+
+  <div id="tabs" class="container">
+  <ul class="nav nav-tabs">
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#braches">Branches</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+      <li><a href="#customers">Customers</a></li>
+    </ul>
+
+  <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+      
+
+  [{{ $partnerdetails->partner_id }}] - {{ $partnerdetails->name }}
+
+
+    <div id="profile">
+    profile here
+    </div>
+
+    <div id="braches">
+  branches here
+    </div>
+
+    <div id="contacts">
+ contacts jere
+    </div>
+
+    <div id="customers">
+customers here
+    </div>    
+</div> 
+
